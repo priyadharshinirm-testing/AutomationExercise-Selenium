@@ -1,5 +1,4 @@
 package test_cases;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -79,217 +78,127 @@ public class User_Register {
 	@FindBy (linkText="Continue")
 	private WebElement con;
 	
-	
 	@FindBy (partialLinkText="Logged")
 	private WebElement log;
-	
 	
 	@FindBy (partialLinkText="Delete")
 	private WebElement Del;
 	
-	
 	@FindBy (xpath="//b[text()='Account Deleted!']")
 	private WebElement Deleted;
 	
-	
-	
-
 	public User_Register(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-
-
-
-
+	
 	public WebDriver getDriver() {
 		return driver;
 	}
-
-
-
 
 	public WebElement getSignup() {
 		return signup;
 	}
 
-
-
-
 	public WebElement getNew_user_signup() {
 		return new_user_signup;
 	}
-
-
-
 
 	public WebElement getName() {
 		return name;
 	}
 
-
-
-
 	public WebElement getEmail() {
 		return email;
 	}
-
-
-
 
 	public WebElement getClicksignup() {
 		return clicksignup;
 	}
 
-
-
-
 	public WebElement getAccinformation() {
 		return Accinformation;
 	}
-
-
-
 
 	public WebElement getGender() {
 		return gender;
 	}
 
-
-
-
 	public WebElement getPswd() {
 		return pswd;
 	}
-
-
-
 
 	public WebElement getDays() {
 		return days;
 	}
 
-
-
-
 	public WebElement getMonths() {
 		return months;
 	}
-
-
-
 
 	public WebElement getYears() {
 		return years;
 	}
 
-
-
-
 	public WebElement getNewsletter() {
 		return newsletter;
 	}
-
-
-
 
 	public WebElement getSpcloffers() {
 		return spcloffers;
 	}
 
-
-
-
 	public WebElement getFirst_name() {
 		return first_name;
 	}
-
-
-
 
 	public WebElement getLast_name() {
 		return last_name;
 	}
 
-
-
-
 	public WebElement getAddress() {
 		return address;
 	}
-
-
-
 
 	public WebElement getCountry() {
 		return country;
 	}
 
-
-
-
 	public WebElement getState() {
 		return state;
 	}
-
-
-
 
 	public WebElement getCity() {
 		return city;
 	}
 
-
-
-
 	public WebElement getZipcode() {
 		return zipcode;
 	}
-
-
-
 
 	public WebElement getMobile_number() {
 		return mobile_number;
 	}
 
-
-
-
 	public WebElement getCreAccnt() {
 		return creAccnt;
 	}
-
-
-
 
 	public WebElement getAcc_created() {
 		return Acc_created;
 	}
 
-
-
-
 	public WebElement getCon() {
 		return con;
 	}
-
-
-
 
 	public WebElement getLog() {
 		return log;
 	}
 
-
-
-
 	public WebElement getDel() {
 		return Del;
 	}
-
-
-
 
 	public WebElement getDeleted() {
 		return Deleted;
@@ -297,3 +206,4 @@ public class User_Register {
 
 	
 }
+
